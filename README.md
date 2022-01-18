@@ -12,7 +12,7 @@ This documentation assumes that you know how to load libraries in Arduino (you n
 Steps to get this running:
 
 1. Upload the Arduino sketch to your Nicla Sense ME board.  When the sketch is uploaded and running, the LED light on the board will be red because it is not connected to a BLE device.
-2. Open the .aia file in [MIT App Inventor](http://ai2.appinventor.mit.edu/).  I just ran the application in Emulator mode on my phone (this is really cool by the way).  You will need the MIT AI 2 app on your Android phone as well.  I believe there is now an iOS app as well.
+2. Open the .aia file in [MIT App Inventor](http://ai2.appinventor.mit.edu/).  I just ran the application in Emulator mode on my phone (this is really cool by the way).  You will also need the MIT AI 2 app on your Android phone.  I believe there is now an iOS app as well.
 3. Once the app is running on your phone, connect to "Nicla2".  The LED on the Nicla will turn green indicating that you have connected.  You can also bring up a Serial console to see that you are connected and data is being collected.
 4. I noticed that it takes about 2-3 minutes for the Nicla to start transmitting accurate eCO2 and IAQ values.  For those first couple minutes, there are default values of 500 for eCO2 and 25 for IAQ.
 5. You can see the historical values on the chart.
